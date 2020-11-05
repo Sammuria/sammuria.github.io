@@ -15,6 +15,12 @@ The program generates a 3D force graph with N number of nodes. Here N value is a
 With the availability of a dataset a funtional 3D graph can be created. 
 
 
+3D version: https://sammuria.github.io/my-basic-3d/
+
+VR version: https://sammuria.github.io/my-basic-3d-VR/
+
+AR version: https://sammuria.github.io/my-basic-3d-AR/
+
 ## Crashes:
 VR version with N=300 crashes frequently. This could also be due to the system issue 
 
