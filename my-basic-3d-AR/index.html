@@ -1,8 +1,13 @@
 <head>
   <style> body { margin: 0; } </style>
 
-  <script src="//unpkg.com/3d-force-graph"></script>
-  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+
+  <script src="//aframe.io/releases/1.0.0/aframe.min.js"></script>
+  <script src="//unpkg.com/ar.js/aframe/build/aframe-ar.min.js"></script>
+
+
+  <script src="//unpkg.com/3d-force-graph-ar"></script>
+  <!--<script src="../../dist/3d-force-graph-ar.js"></script>-->
 </head>
 
 <body>
@@ -21,7 +26,7 @@
         }))
     };
 
-    const Graph = ForceGraph3D()
+    const Graph = ForceGraphAR()
       (document.getElementById('3d-graph'))
         .graphData(gData);
   </script>
