@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Quiz!</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  
+  <form class="quiz">
+    <div class="quiz__inner">
+
+    <!-- Question section starts here -->
+    <div data-question="1" class="quiz__step--1 quiz__step--current quiz__step">
+      <div class="question__emoji">⌚ </div>
+      
+      <h1 class="quiz__question">Has the last 12 months affected your business? If so, how?
+      </h1>
+
+      
+      <!-- partial:index.partial.html -->
+          <div id="form-main">
+            <div id="form-div">
+              <form class="form" id="form1">  
+                <div class="answer">
+
+                <p class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="q1" placeholder="Enter here.."></textarea>
+                </p>               
+                
+                </div>>
+              </form>
+            </div>
+          </div>  
+      <!-- partial -->          
+      
+    </div>
+    <!-- Question section ends here -->
+
+
+
+
+
+
+
+
+
+
+    <div data-question="2" class="quiz__step--2 quiz__step">
+      <div class="question__emoji">✎</div>
+          <h1 class="quiz__question"> What are your key offerings/products/services? Has this changed over the last 12 months?
+          </h1>
+          <!-- partial:index.partial.html -->
+          <div id="form-main">
+            <div id="form-div">
+              <form class="form" id="form1">                    
+                
+                <p class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+                </p>
+                          
+              
+              </form>
+            </div>
+          </div>
+                
+        </div>
+
+
+
+
+ <!-- Question section starts here -->
+ <div style="background-image: url('https://thecco.com.au/wp-content/uploads/2021/02/Q-bcg.png');"> 
+
+ <div data-question="3" class="quiz__step--3 quiz__step">
+
+  <div class="question__emoji">⌚ </div>
+  <h1 class="quiz__question"> Who is your key audience? What are they like, and what do they believe in?
+  </h1>  
+  <!-- partial:index.partial.html -->
+      <div id="form-main">
+        <div id="form-div">
+          <form class="form" id="form1">  
+
+            <p class="text">
+              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+            </p>               
+            
+          
+          </form>
+        </div>
+      </div>  
+    </div>
+  <!-- partial -->          
+  
+</div>
+<!-- Question section ends here -->
+
+
+
+
+ <!-- Question section starts here -->
+ <div data-question="4" class="quiz__step--4 quiz__step">
+  <div class="question__emoji">⌚ </div>
+  <h1 class="quiz__question">What problems does your business currently solve for your customers? Is this likely to change in 2021?</h1>
+  <!-- partial:index.partial.html -->
+      <div id="form-main">
+        <div id="form-div">
+          <form class="form" id="form1">  
+
+            <p class="text">
+              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+            </p>               
+            
+          
+          </form>
+        </div>
+      </div>  
+  <!-- partial -->          
+  
+</div>
+<!-- Question section ends here -->
+
+
+
+
+  <!-- Question section starts here -->
+  <div data-question="5" class="quiz__step--5 quiz__step">
+    <div class="question__emoji">⌚ </div>
+    <h1 class="quiz__question">What are some things that are currently working for your business?
+    </h1>
+    
+    <!-- partial:index.partial.html -->
+        <div id="form-main">
+          <div id="form-div">
+            <form class="form" id="form1">  
+
+              <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+              </p>               
+              
+            
+            </form>
+          </div>
+        </div>  
+    <!-- partial -->            
+  </div>
+  <!-- Question section ends here -->
+
+
+
+  <!-- Question section starts here -->
+  <div data-question="6" class="quiz__step--6 quiz__step">
+    <div class="question__emoji">⌚ </div>
+    <h1 class="quiz__question">What isn’t working / what are some things you are currently finding challenging?
+    </h1>
+    
+    <!-- partial:index.partial.html -->
+        <div id="form-main">
+          <div id="form-div">
+            <form class="form" id="form1">  
+
+              <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+              </p>               
+              
+            
+            </form>
+          </div>
+        </div>  
+    <!-- partial -->            
+  </div>
+  <!-- Question section ends here -->
+
+
+
+    <!-- Question section starts here -->
+  <div data-question="7" class="quiz__step--7 quiz__step">
+    <div class="question__emoji">⌚ </div>
+    <h1 class="quiz__question">What do you currently feel are your key brand values? Have these changed over the last 12 months?
+    </h1>
+    
+    <!-- partial:index.partial.html -->
+        <div id="form-main">
+          <div id="form-div">
+            <form class="form" id="form1">  
+
+              <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+              </p>               
+              
+            
+            </form>
+          </div>
+        </div>  
+    <!-- partial -->            
+  </div>
+  <!-- Question section ends here -->
+
+
+
+
+
+
+  <!-- Question section starts here -->
+  <div data-question="8" class="quiz__step--8 quiz__step">
+    <div class="question__emoji">⌚ </div>
+    <h1 class="quiz__question">What does success mean to you?    </h1>
+    
+    <!-- partial:index.partial.html -->
+        <div id="form-main">
+          <div id="form-div">
+            <form class="form" id="form1">  
+
+              <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+              </p>               
+              
+            
+            </form>
+          </div>
+        </div>  
+    <!-- partial -->            
+  </div>
+  <!-- Question section ends here -->
+
+
+
+
+
+
+     <!-- Question section starts here -->
+     <div data-question="9" class="quiz__step--9 quiz__step">
+      <div class="question__emoji">⌚ </div>
+      <h1 class="quiz__question">What are your goals for your business in 2021?  (Could be goals relating to service/product offerings, ways of working, wellbeing, finance, marketing etc)
+      </h1>
+      
+      <!-- partial:index.partial.html -->
+          <div id="form-main">
+            <div id="form-div">
+              <form class="form" id="form1">  
+  
+                <p class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+                </p>               
+                
+              
+              </form>
+            </div>
+          </div>  
+      <!-- partial -->            
+    </div>
+    <!-- Question section ends here -->
+
+
+
+
+
+
+
+       <!-- Question section starts here -->
+  <div data-question="10" class="quiz__step--10 quiz__step">
+    <div class="question__emoji">⌚ </div>
+    <h1 class="quiz__question">What are some things you don’t want in 2021? Is there anything that hasn’t been working or isn’t serving you that you can ditch or change?
+    </h1>
+    
+    <!-- partial:index.partial.html -->
+        <div id="form-main">
+          <div id="form-div">
+            <form class="form" id="form1">  
+
+              <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+              </p>               
+              
+            
+            </form>
+          </div>
+        </div>  
+    <!-- partial -->            
+  </div>
+  <!-- Question section ends here -->
+
+
+
+
+
+
+
+     <!-- Question section starts here -->
+     <div data-question="11" class="quiz__step--11 quiz__step">
+      <div class="question__emoji">⌚ </div>
+      <h1 class="quiz__question">Is there anything else that became apparent to you while completing your Brand Audit that you’d like to note down as a reference or reminder as you move through the year?
+      </h1>
+      
+      <!-- partial:index.partial.html -->
+          <div id="form-main">
+            <div id="form-div">
+              <form class="form" id="form1">  
+  
+                <p class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="q1" placeholder="Enter here.."></textarea>
+                </p>               
+                
+              
+              </form>
+            </div>
+          </div>  
+      <!-- partial -->            
+    </div>
+    <!-- Question section ends here -->
+
+
+
+
+
+
+       <!-- Question section starts here -->
+  <div data-question="12" class="quiz__step--12 quiz__step">
+    <div class="question__emoji">⌚ </div>
+    <h1 class="quiz__question">What are some tangible steps you can take to implement your goals?
+    </h1>
+    
+    <!-- partial:index.partial.html -->
+        <div id="form-main">
+          <div id="form-div">
+            <form class="form" id="form1">  
+
+              <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+              </p>               
+              
+            
+            </form>
+          </div>
+        </div>  
+    <!-- partial -->            
+  </div>
+  <!-- Question section ends here -->
+
+
+
+
+
+     <!-- Question section starts here -->
+     <div data-question="13" class="quiz__step--13 quiz__step">
+      <div class="question__emoji">⌚ </div>
+      <h1 class="quiz__question">Can you identify a timeline to achieving your goals? When will you work on them?
+      </h1>
+      
+      <!-- partial:index.partial.html -->
+          <div id="form-main">
+            <div id="form-div">
+              <form class="form" id="form1">  
+  
+                <p class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+                </p>               
+                
+              
+              </form>
+            </div>
+          </div>  
+      <!-- partial -->            
+    </div>
+    <!-- Question section ends here -->
+
+
+
+
+
+       <!-- Question section starts here -->
+  <div data-question="14" class="quiz__step--14 quiz__step">
+    <div class="question__emoji">⌚ </div>
+    <h1 class="quiz__question">What tools, resources and assistance do you need to achieve your goals? 
+    </h1>
+    
+    <!-- partial:index.partial.html -->
+        <div id="form-main">
+          <div id="form-div">
+            <form class="form" id="form1">  
+
+              <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+              </p>               
+              
+            
+            </form>
+          </div>
+        </div>  
+    <!-- partial -->            
+  </div>
+  <!-- Question section ends here -->
+
+
+
+
+
+     <!-- Question section starts here -->
+     <div data-question="15" class="quiz__step--15 quiz__step">
+      <div class="question__emoji">⌚ </div>
+      <h1 class="quiz__question"> Identify your marketing pillars
+      </h1>
+      
+      <!-- partial:index.partial.html -->
+          <div id="form-main">
+            <div id="form-div">
+              <form class="form" id="form1">  
+  
+                <p class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+                </p>               
+                
+              
+              </form>
+            </div>
+          </div>  
+      <!-- partial -->            
+    </div>
+    <!-- Question section ends here -->
+
+
+
+
+
+       <!-- Question section starts here -->
+  <div data-question="16" class="quiz__step--16 quiz__step">
+    <div class="question__emoji">⌚ </div>
+    <h1 class="quiz__question">Identify your key communication platforms
+    </h1>
+    
+    <!-- partial:index.partial.html -->
+        <div id="form-main">
+          <div id="form-div">
+            <form class="form" id="form1">  
+
+              <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+              </p>               
+              
+            
+            </form>
+          </div>
+        </div>  
+    <!-- partial -->            
+  </div>
+  <!-- Question section ends here -->
+
+
+
+     <!-- Question section starts here -->
+     <div data-question="17" class="quiz__step--17 quiz__step">
+      <div class="question__emoji">⌚ </div>
+      <h1 class="quiz__question">Identify what kinds of content you want to communicate across each of the platforms, and how these relate to one another
+      </h1>
+      
+      <!-- partial:index.partial.html -->
+          <div id="form-main">
+            <div id="form-div">
+              <form class="form" id="form1">  
+  
+                <p class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+                </p>               
+                
+              
+              </form>
+            </div>
+          </div>  
+      <!-- partial -->            
+    </div>
+    <!-- Question section ends here -->
+
+
+
+
+
+       <!-- Question section starts here -->
+       <div data-question="18" class="quiz__step--18 quiz__step">
+        <div class="question__emoji">⌚ </div>
+        <h1 class="quiz__question">Create a mock-up marketing schedule across an average month for your brand
+        </h1>
+        
+        <!-- partial:index.partial.html -->
+            <div id="form-main">
+              <div id="form-div">
+                <form class="form" id="form1">  
+    
+                  <p class="text">
+                    <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+                  </p>               
+                  
+                
+                </form>
+              </div>
+            </div>  
+        <!-- partial -->            
+      </div>
+      <!-- Question section ends here -->
+
+
+
+
+
+
+         <!-- Question section starts here -->
+     <div data-question="19" class="quiz__step--19 quiz__step">
+
+         <!-- display text -->
+
+         <h1>What is your mission?</h1>
+
+<form action="/action_page.php" id="usrform">
+  
+</form>
+<br>
+<textarea rows="4" cols="50" name="comment" form="usrform" id="mission">
+</textarea>
+
+<br><br>
+
+
+
+
+
+<h1>What is your vision?</h1>
+
+<form action="/action_page.php" id="usrform">
+  
+</form>
+<br>
+<textarea rows="4" cols="50" name="comment" form="usrform" id="vision">
+</textarea>
+
+<br><br>
+
+
+
+
+
+<input type="button" value="Submit" onClick="pr()"> <br><br>Your mission is: <span id="result1"></span>
+
+<br><br>Your vision is: <span id="result2"></span>
+
+
+
+<script>
+          function pr() {
+            document.getElementById("result1").innerHTML = document.getElementById('mission').value;
+            document.getElementById("result2").innerHTML = document.getElementById('vision').value;
+            var n=document.getElementById('result1').value;
+
+          }
+          
+          var n=document.getElementById('result1').value;
+
+          
+        </script>
+         
+            
+    </div>
+    <!-- Question section ends here -->
+
+
+
+
+
+
+
+
+
+
+        <!-- Question section starts here -->
+        <div data-question="20" class="quiz__step--20 quiz__step">
+
+          <!-- display text -->
+ 
+          
+ 
+ 
+ 
+ 
+ 
+ <input type="button" value="Submit" onClick="pr()"> <br><br>Your mission is: <span id="result1"></span>
+ 
+ <br><br>Your vision is: <span id="result2"></span>
+ 
+ 
+ 
+ <script>
+           function pr() {
+             document.getElementById("result1").innerHTML = document.getElementById('mission').value;
+             document.getElementById("result2").innerHTML = document.getElementById('vision').value;
+             var n=document.getElementById('result1').value;
+ 
+           }
+           
+           var n=document.getElementById('result1').value;
+ 
+           
+         </script>
+          
+             
+     </div>
+     <!-- Question section ends here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <!-- Question section starts here -->
+       <div data-question="20" class="quiz__step--20 quiz__step">
+        <div class="question__emoji">⌚ </div>
+        <h1 class="quiz__question">Facebook Group? What kind?
+        </h1>
+        
+        <!-- partial:index.partial.html -->
+            <div id="form-main">
+              <div id="form-div">
+                <form class="form" id="form1">  
+    
+                  <p class="text">
+                    <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+                  </p>               
+                  
+                
+                </form>
+              </div>
+            </div>  
+        <!-- partial -->            
+      </div>
+      <!-- Question section ends here -->
+
+
+
+
+
+      
+       <!-- Question section starts here -->
+       <div data-question="21" class="quiz__step--21 quiz__step">
+        <div class="question__emoji">⌚ </div>
+        <h1 class="quiz__question">Any live events? What kind?</h1>
+        
+        <!-- partial:index.partial.html -->
+            <div id="form-main">
+              <div id="form-div">
+                <form class="form" id="form1">  
+    
+                  <p class="text">
+                    <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+                  </p>               
+                  
+                
+                </form>
+              </div>
+            </div>  
+        <!-- partial -->            
+      </div>
+      <!-- Question section ends here -->
+
+
+
+
+
+      
+       <!-- Question section starts here -->
+       <div data-question="22" class="quiz__step--22 quiz__step">
+        <div class="question__emoji">⌚ </div>
+        <h1 class="quiz__question">Membership sites? What kind?
+        </h1>
+        
+        <!-- partial:index.partial.html -->
+            <div id="form-main">
+              <div id="form-div">
+                <form class="form" id="form1">  
+    
+                  <p class="text">
+                    <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter here.."></textarea>
+                  </p>               
+                  
+                
+                </form>
+              </div>
+            </div>  
+        <!-- partial -->            
+      </div>
+      <!-- Question section ends here -->
+
+
+
+             <!-- Question section starts here -->
+             <div data-question="23" class="quiz__step--23 quiz__step">
+              <div class="question__emoji"> </div>
+              <h1 class="quiz__question">Mind Map </h1>
+              
+              <img src="mindmap.png" alt="Trulli" width="500" height="333">
+           
+            </div>
+            <!-- Question section ends here -->
+
+
+
+
+             <!-- Question section starts here -->
+             <div data-question="24" class="quiz__step--24 quiz__step">
+              <div class="question__emoji"> </div>
+              <h1 class="quiz__question">Stylescape</h1>
+              
+              <img src="Stylescape.png" alt="Trulli" width="1200" height="333">
+           
+            </div>
+            <!-- Question section ends here -->
+
+
+
+
+
+
+
+
+<div data-question="25" class="quiz__step--25 quiz__step quiz__summary">
+  
+      <h1 class="quiz__question">Summary</h1>
+  <div id="summary"></div>
+              <div class="submit__container">
+      <a href="#" class="submit">Submit</a>
+    </div> 
+    </div>
+      </div>
+  </form>
+</div>
+
+<footer class="bottom">
+  <section class="bottom__container">
+    <div class="progress">
+    <div class="progress__inner"></div>
+  </div>
+  <div class="navigation">
+    <div class="navigation__btn navigation__btn--left"><svg width="20" height="20" viewBox="0 0 24 24">
+    <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+</svg></div>
+    <div class="navigation__btn navigation__btn--right"><svg width="20" height="20" viewBox="0 0 24 24">
+  <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+</svg></div>
+  </div>
+  </section>  
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
